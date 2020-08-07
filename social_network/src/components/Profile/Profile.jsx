@@ -1,13 +1,13 @@
 import React from 'react';
 import classes from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts";
-import NewPost from "./NewPosts/NewPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 
 function Profile() {
     return (
         <div className={classes.content}>
-           <NewPost/>
+           <ProfileInfo/>
             <MyPosts/>
         </div>
     )
