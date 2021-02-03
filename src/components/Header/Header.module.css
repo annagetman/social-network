@@ -1,0 +1,17 @@
+
+.header {
+    grid-area:  header;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: forestgreen;
+    display: grid;
+
+}
+
+.header img {
+    width: 50px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
