@@ -6,7 +6,7 @@
 .pnp.js
 
 # IntelliJ project files
-*.idea
+.idea
 
 
 # testing
